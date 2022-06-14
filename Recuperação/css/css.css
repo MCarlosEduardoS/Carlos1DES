@@ -1,0 +1,38 @@
+*{
+    background-color: #bcdbdb;
+}
+header{
+    text-align: center;
+    margin-top: 5%;
+}
+table, td{
+    text-align: center;
+    background-color: rgb(233, 230, 230);
+    width: 150px;
+    height: 50px;
+    margin-top: 5%;
+    border-radius: 100%;
+    border: #44babc;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    background-color: rgb(233, 230, 230);
+    position: absolute;
+}
+td:hover{
+    background-color: #35797d;
+    color: white;
+}
+.quadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 230, 230);
+    width: 350px;
+    height: 300px;
+    margin-left: 40%;
+    margin-right: 35%;
+}
